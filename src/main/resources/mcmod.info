@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hypewear",
+  "name": "Hype Wear",
+  "description": "Hype wear mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Toliak"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
