@@ -1,23 +1,32 @@
 package com.toliak.hypewear.item.armor;
 
-import com.toliak.hypewear.HypeWear;
-import com.toliak.hypewear.item.ItemModelProvider;
+import com.toliak.hypewear.item.ItemRegisterInterface;
+import com.toliak.hypewear.proxy.ClientProxy;
+import com.toliak.hypewear.proxy.SharedProxy;
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 
-public class HypeArmor extends ItemArmor implements ItemModelProvider {
+public class HypeArmor extends ItemArmor implements ItemRegisterInterface {
     private String name;
 
     public HypeArmor(ArmorMaterial material, EntityEquipmentSlot slot, String name) {
         super(material, 0, slot);
-        setRegistryName(name);
-        setUnlocalizedName(name);
+        this.setRegistryName(name);
+        this.setUnlocalizedName(name);
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
-    public void registerItemModel() {
-         HypeWear.proxy.registerItemRenderer(this, 0, name);
+    public void registerItem(SharedProxy proxy) {
+        proxy.registerItem(this);
+    }
+
+    @Override
+    public void registerItemModel(ClientProxy proxy) {
+        proxy.registerItemRenderer(this, 0, name);
     }
 }

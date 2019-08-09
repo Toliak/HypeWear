@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "hypewear:items/hype_helmet"
+    "layer0": "hypewear:items/aggc_chestplate"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "x x",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hypewear:aggc_boots",
+    "count": 1
+  }
+}
