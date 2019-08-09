@@ -1,7 +1,6 @@
 package com.toliak.hypewear.proxy;
 
 import com.toliak.hypewear.item.ItemsRegistrator;
-import com.toliak.hypewear.item.RecipesRegistrator;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.crafting.CraftingHelper;
@@ -20,7 +19,6 @@ public class SharedProxy {
     }
 
     public void init(FMLInitializationEvent event) {
-//        RecipesRegistrator.register(this);
     }
 
     public void postInit(FMLPostInitializationEvent event) {
@@ -36,7 +34,6 @@ public class SharedProxy {
     }
 
     public void registerRecipe(String name) {
-        System.out.println("Регистрируйся блеать");
 
         CraftingHelper.register(
                 new ResourceLocation("hypewear", name),

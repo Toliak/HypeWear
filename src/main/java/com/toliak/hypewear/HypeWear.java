@@ -28,7 +28,6 @@ public class HypeWear {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        System.out.println("Инит по связи");
         proxy.init(event);
     }
 
