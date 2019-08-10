@@ -16,9 +16,9 @@ public class ItemsRegistrator {
     private static ItemRegisterInterface[] toRegister = {
             new HypeItemMaterial("hype_material"),
             new HypeArmor(
-                    Materials.aggc,
+                    Materials.black,
                     EntityEquipmentSlot.HEAD,
-                    "aggc_helmet"
+                    "black_helmet"
             ),
             new HypeArmor(
                     Materials.aggc,
@@ -26,14 +26,9 @@ public class ItemsRegistrator {
                     "aggc_chestplate"
             ),
             new HypeArmor(
-                    Materials.aggc,
+                    Materials.castle,
                     EntityEquipmentSlot.LEGS,
-                    "aggc_leggings"
-            ),
-            new HypeArmor(
-                    Materials.aggc,
-                    EntityEquipmentSlot.FEET,
-                    "aggc_boots"
+                    "castle_leggings"
             ),
     };
 

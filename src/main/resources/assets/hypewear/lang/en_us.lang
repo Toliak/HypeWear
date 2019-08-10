@@ -1,3 +1,34 @@
-item.aggc_helmet.name=Anti Griefer Griefer Club Hood
-
+# Materials
 item.hype_material.black.name=Hype Black Material
+item.hype_material.red.name=Hype Red Material
+item.hype_material.white.name=Hype White Material
+item.hype_label.name=Label Material
+
+item.aggc_label.name=Anti Griefer Griefer Club label
+item.baritone_label.name=Baritone Label
+item.baritone_label_stack.name=Baritone Label Stack
+item.castle_label.name=Castle Label
+item.castle_blockferg=Castle Block-Ferg
+
+
+# Wear
+item.black_helmet.name=Black Hood
+item.white_helmet.name=White Hood
+
+
+# AGGC Wear
+item.aggc_chestplate.name=Anti Griefer Griefer Club Hoodie
+
+
+# Castle cart wear
+item.castle_helmet.name=Castle Hood
+item.castle_chestplate.name=Castle Hoodie
+item.castle_leggings.name=Castle Pants
+
+
+# Baritone wear
+item.baritone_white_chestplate.name=Baritone White Hoodie
+
+item.baritone_helmet.name=Baritone Hood
+item.baritone_chestplate.name=Baritone Hoodie
+item.baritone_leggings.name=Baritone Pants
