@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "twt",
+    "wsw",
+    "twt"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:wool",
+      "data": 15
+    },
+    "t": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "hypewear:hype_material",
+    "count": 4,
+    "data": 15
+  }
+}
