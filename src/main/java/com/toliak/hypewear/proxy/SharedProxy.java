@@ -1,16 +1,14 @@
 package com.toliak.hypewear.proxy;
 
+import com.toliak.hypewear.HypeWear;
 import com.toliak.hypewear.item.ItemsRegistrator;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.common.crafting.CraftingHelper;
-import net.minecraftforge.common.crafting.IRecipeFactory;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
-
-import static net.minecraftforge.common.crafting.CraftingHelper.getRecipe;
 
 public class SharedProxy {
 
@@ -24,20 +22,18 @@ public class SharedProxy {
     public void postInit(FMLPostInitializationEvent event) {
     }
 
-    /**
-     * Item registration
-     *
-     * @param item Item
-     */
     public void registerItem(Item item) {
         ForgeRegistries.ITEMS.register(item);
     }
 
-    public void registerRecipe(String name) {
-
-        CraftingHelper.register(
-                new ResourceLocation("hypewear", name),
-                (IRecipeFactory) (context, json) -> getRecipe(json, context)
+    public void registerCustomModelResourceLocation(Item item, int metadata, String name) {
+        ModelLoader.setCustomModelResourceLocation(
+                item,
+                metadata,
+                new ModelResourceLocation(
+                        HypeWear.MODID + name,
+                        "inventory"
+                )
         );
     }
 

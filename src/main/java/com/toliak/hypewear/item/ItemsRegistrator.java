@@ -2,6 +2,8 @@ package com.toliak.hypewear.item;
 
 import com.toliak.hypewear.item.armor.HypeArmor;
 import com.toliak.hypewear.item.armor.Materials;
+import com.toliak.hypewear.item.material.HypeItem;
+import com.toliak.hypewear.item.material.HypeItemMaterial;
 import com.toliak.hypewear.proxy.ClientProxy;
 import com.toliak.hypewear.proxy.SharedProxy;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -12,6 +14,7 @@ public class ItemsRegistrator {
      * Define all items here
      */
     private static ItemRegisterInterface[] toRegister = {
+            new HypeItemMaterial("hype_material"),
             new HypeArmor(
                     Materials.aggc,
                     EntityEquipmentSlot.HEAD,
