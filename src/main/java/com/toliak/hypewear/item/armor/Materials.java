@@ -53,4 +53,24 @@ public class Materials {
             TOUGHNESS
     );
 
+    public static final ItemArmor.ArmorMaterial baritoneWhite = EnumHelper.addArmorMaterial(
+            "BARITONE_WHITE",
+            HypeWear.MODID + ":baritone_white",
+            DURABILITY,
+            REDUCTION,
+            ENCHANTABILITY,
+            SOUND,
+            TOUGHNESS
+    );
+
+    public static final ItemArmor.ArmorMaterial baritone = EnumHelper.addArmorMaterial(
+            "BARITONE",
+            HypeWear.MODID + ":baritone",
+            DURABILITY,
+            REDUCTION,
+            ENCHANTABILITY,
+            SOUND,
+            TOUGHNESS
+    );
+
 }
