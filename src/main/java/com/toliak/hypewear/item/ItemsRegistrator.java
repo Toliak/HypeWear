@@ -30,6 +30,11 @@ public class ItemsRegistrator {
                     "aggc_chestplate"
             ),
             new HypeArmor(
+                    Materials.aggc,
+                    EntityEquipmentSlot.FEET,
+                    "aggc_boots"
+            ),
+            new HypeArmor(
                     Materials.castle,
                     EntityEquipmentSlot.CHEST,
                     "castle_chestplate"
@@ -40,9 +45,24 @@ public class ItemsRegistrator {
                     "castle_leggings"
             ),
             new HypeArmor(
+                    Materials.castle,
+                    EntityEquipmentSlot.FEET,
+                    "castle_boots"
+            ),
+            new HypeArmor(
                     Materials.baritoneWhite,
                     EntityEquipmentSlot.CHEST,
                     "baritone_white_chestplate"
+            ),
+            new HypeArmor(
+                    Materials.baritoneWhite,
+                    EntityEquipmentSlot.LEGS,
+                    "baritone_white_leggings"
+            ),
+            new HypeArmor(
+                    Materials.baritoneWhite,
+                    EntityEquipmentSlot.FEET,
+                    "baritone_white_boots"
             ),
             new HypeArmor(
                     Materials.baritone,

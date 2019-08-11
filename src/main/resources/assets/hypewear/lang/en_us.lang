@@ -18,16 +18,20 @@ item.white_helmet.name=White Hood
 
 # AGGC Wear
 item.aggc_chestplate.name=Anti Griefer Griefer Club Hoodie
+item.aggc_boots.name=Anti Griefer Griefer Club Boots
 
 
 # Castle cart wear
 item.castle_helmet.name=Castle Hood
 item.castle_chestplate.name=Castle Hoodie
 item.castle_leggings.name=Castle Pants
+item.castle_boots.name=Castle Boots
 
 
 # Baritone wear
 item.baritone_white_chestplate.name=Baritone White Hoodie
+item.baritone_white_leggings.name=Baritone White Pants
+item.baritone_white_boots.name=Baritone White Boots
 
 item.baritone_helmet.name=Baritone Hood
 item.baritone_chestplate.name=Baritone Hoodie
