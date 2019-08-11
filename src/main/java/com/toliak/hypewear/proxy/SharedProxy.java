@@ -1,10 +1,7 @@
 package com.toliak.hypewear.proxy;
 
-import com.toliak.hypewear.HypeWear;
 import com.toliak.hypewear.item.ItemsRegistrator;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
-import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

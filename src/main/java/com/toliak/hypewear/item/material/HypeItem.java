@@ -1,12 +1,9 @@
 package com.toliak.hypewear.item.material;
 
-import com.sun.istack.internal.NotNull;
 import com.toliak.hypewear.item.ItemRegisterInterface;
 import com.toliak.hypewear.proxy.ClientProxy;
 import com.toliak.hypewear.proxy.SharedProxy;
-import mcp.MethodsReturnNonnullByDefault;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 
 public class HypeItem extends Item implements ItemRegisterInterface {
     private String name;
