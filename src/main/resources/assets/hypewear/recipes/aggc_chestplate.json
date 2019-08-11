@@ -7,15 +7,15 @@
   ],
   "key": {
     "b": {
-      "item": "minecraft:hype_material",
+      "item": "hypewear:hype_material",
       "data": 15
     },
     "w": {
-      "item": "minecraft:hype_material",
+      "item": "hypewear:hype_material",
       "data": 0
     }
   },
   "result": {
-    "item": "hypewear:castle_chestplate"
+    "item": "hypewear:aggc_chestplate"
   }
 }
