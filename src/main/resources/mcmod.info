@@ -5,10 +5,10 @@
   "description": "Hype wear mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/Toliak/HypeWear",
   "updateUrl": "",
   "authorList": ["Toliak"],
-  "credits": "",
+  "credits": "Thanks to https://github.com/NickTikhomirov",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
