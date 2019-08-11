@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "b b",
+    "w w"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:hype_material",
+      "data": 15
+    },
+    "w": {
+      "item": "minecraft:hype_material",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "hypewear:castle_boots"
+  }
+}

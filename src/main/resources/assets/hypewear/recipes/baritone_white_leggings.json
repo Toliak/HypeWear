@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "r r",
+    "w w"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:hype_material",
+      "data": 14
+    },
+    "w": {
+      "item": "minecraft:hype_material",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "hypewear:baritone_white_leggings"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "w w",
+    "   "
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:hype_material",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "hypewear:white_helmet"
+  }
+}

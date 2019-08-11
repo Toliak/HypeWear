@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "b b",
+    "b b"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:hype_material",
+      "data": 15
+    }
+  },
+  "result": {
+    "item": "hypewear:aggc_boots"
+  }
+}
