@@ -26,15 +26,4 @@ public class SharedProxy {
         ForgeRegistries.ITEMS.register(item);
     }
 
-    public void registerCustomModelResourceLocation(Item item, int metadata, String name) {
-        ModelLoader.setCustomModelResourceLocation(
-                item,
-                metadata,
-                new ModelResourceLocation(
-                        HypeWear.MODID + name,
-                        "inventory"
-                )
-        );
-    }
-
 }

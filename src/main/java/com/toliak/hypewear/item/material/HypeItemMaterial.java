@@ -57,14 +57,6 @@ public class HypeItemMaterial extends HypeItem {
     @Override
     public void registerItem(SharedProxy proxy) {
         super.registerItem(proxy);          // register item
-
-        for (Color color : Color.values()) {        // register custom models, because metadata :)
-            proxy.registerCustomModelResourceLocation(
-                    this,
-                    color.getWoolColor(),
-                    ":" + this.getName() + "_" + color.getName()
-            );
-        }
     }
 
     @Override
@@ -76,5 +68,14 @@ public class HypeItemMaterial extends HypeItem {
                     this.getName() + "_" + color.getName()
             );
         }
+
+        for (Color color : Color.values()) {        // register custom models, because metadata :)
+            proxy.registerCustomModelResourceLocation(
+                    this,
+                    color.getWoolColor(),
+                    ":" + this.getName() + "_" + color.getName()
+            );
+        }
+
     }
 }
