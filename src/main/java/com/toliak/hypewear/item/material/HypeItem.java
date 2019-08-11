@@ -30,4 +30,9 @@ public class HypeItem extends Item implements ItemRegisterInterface {
     public void registerItemModel(ClientProxy proxy) {
         proxy.registerItemRenderer(this, 0, this.name);
     }
+
+    @Override
+    public void registerItemCustomModel(ClientProxy proxy) {
+
+    }
 }

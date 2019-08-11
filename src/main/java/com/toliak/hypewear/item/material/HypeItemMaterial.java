@@ -68,7 +68,10 @@ public class HypeItemMaterial extends HypeItem {
                     this.getName() + "_" + color.getName()
             );
         }
+    }
 
+    @Override
+    public void registerItemCustomModel(ClientProxy proxy) {
         for (Color color : Color.values()) {        // register custom models, because metadata :)
             proxy.registerCustomModelResourceLocation(
                     this,
@@ -76,6 +79,5 @@ public class HypeItemMaterial extends HypeItem {
                     ":" + this.getName() + "_" + color.getName()
             );
         }
-
     }
 }

@@ -92,4 +92,11 @@ public class ItemsRegistrator {
             item.registerItemModel(proxy);
         }
     }
+
+    public static void registerCustomModel(ClientProxy proxy) {
+        for (ItemRegisterInterface item : toRegister) {
+            item.registerItemCustomModel(proxy);
+        }
+
+    }
 }

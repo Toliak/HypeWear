@@ -29,4 +29,9 @@ public class HypeArmor extends ItemArmor implements ItemRegisterInterface {
     public void registerItemModel(ClientProxy proxy) {
         proxy.registerItemRenderer(this, 0, name);
     }
+
+    @Override
+    public void registerItemCustomModel(ClientProxy proxy) {
+
+    }
 }

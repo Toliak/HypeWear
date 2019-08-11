@@ -7,4 +7,6 @@ public interface ItemRegisterInterface {
     void registerItem(SharedProxy proxy);
 
     void registerItemModel(ClientProxy proxy);
+
+    void registerItemCustomModel(ClientProxy proxy);
 }
