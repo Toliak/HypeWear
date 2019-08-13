@@ -7,7 +7,7 @@ import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class Materials {
-    public static final int DURABILITY = 15;
+    public static final int DURABILITY = 5;
     public static final int[] REDUCTION = {1, 3, 2, 1};
     public static final int ENCHANTABILITY = 1;
     public static final SoundEvent SOUND = SoundEvents.ITEM_ARMOR_EQUIP_LEATHER;
