@@ -22,6 +22,15 @@ public class Materials {
             SOUND,
             TOUGHNESS
     );
+    public static final ItemArmor.ArmorMaterial aggcChestplate = EnumHelper.addArmorMaterial(
+            "AGGC",
+            HypeWear.MODID + ":aggc_chestplate",
+            DURABILITY,
+            REDUCTION,
+            ENCHANTABILITY,
+            SOUND,
+            TOUGHNESS
+    );
 
     public static final ItemArmor.ArmorMaterial black = EnumHelper.addArmorMaterial(
             "BLACK",

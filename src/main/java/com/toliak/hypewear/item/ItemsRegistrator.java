@@ -25,7 +25,7 @@ public class ItemsRegistrator {
                     "white_helmet"
             ),
             new HypeArmor(
-                    Materials.aggc,
+                    Materials.aggcChestplate,
                     EntityEquipmentSlot.CHEST,
                     "aggc_chestplate"
             ),
